@@ -1,0 +1,16 @@
+.chat-overlay {
+    position: fixed;
+    right: 20px;
+    bottom: 0;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    -webkit-box-shadow: rgba(0,0,0,0.2) 0 2px 6px;
+    box-shadow: rgba(0,0,0,0.2) 0 2px 6px;
+
+    .transition(height 0.5s ease-out);
+
+    &.minimized {
+        height: 30px;
+    }
+}
