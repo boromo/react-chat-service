@@ -20,12 +20,9 @@ class AdminPage extends Component {
     };
   }
 
-
-  componentWillMount() {
-    const { dispatch, userValidation } = this.props;
-    if (!userValidation.loaded) {
-      dispatch(actions.usernameValidationList());
-    }
+  componentDidMount() {
+    const { dispatch } = this.props;
+    dispatch(actions.usernameValidationList());
   }
 
   onUserSelectClick = (event, user) => {

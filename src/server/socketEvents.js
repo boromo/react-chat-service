@@ -4,9 +4,8 @@ module.exports = function(io) {
   io.on('connection', function(socket) {
     const db = getConnection();
 
-    socket.join('Lobby');
+    socket.join('/');
     socket.on('chat mounted', function(user) {
-      // TODO: Does the server need to know the user?
       socket.emit('receive socket', socket.id)
     })
     socket.on('leave channel', function(channel) {
@@ -17,7 +16,7 @@ module.exports = function(io) {
     })
     socket.on('new message', function(msg) {
       db.messages.save(msg);
-      io.sockets.in(msg.channelID).emit('new bc message', msg);
+      io.sockets.in(msg.channelID).emit('new message stored', msg);
     });
   });
 }

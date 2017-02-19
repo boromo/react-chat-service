@@ -32,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
@@ -48,21 +48,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/containers/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ChatContainer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/containers/ChatContainer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="28" selection-end-column="28" />
+              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActiveUsers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/components/ActiveUsers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -85,8 +87,48 @@
       <file leaf-file-name="Chat.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/components/Chat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="50" />
+            <state relative-caret-position="240">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="socketEvents.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/socketEvents.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminPage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/components/AdminPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageComposer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/components/MessageComposer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -97,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/common/store/configureStore.js" />
         <option value="$PROJECT_DIR$/src/common/store/configureStore.dev.js" />
         <option value="$PROJECT_DIR$/src/common/store/configureStore.prod.js" />
         <option value="$PROJECT_DIR$/src/common/middleware/index.js" />
@@ -131,23 +172,24 @@
         <option value="$PROJECT_DIR$/src/common/reducers/index.js" />
         <option value="$PROJECT_DIR$/webpack.config.dev.js" />
         <option value="$PROJECT_DIR$/src/server/server.dev.js" />
-        <option value="$PROJECT_DIR$/src/common/containers/ChatContainer.js" />
         <option value="$PROJECT_DIR$/src/common/less/mixins.less" />
         <option value="$PROJECT_DIR$/src/common/less/main.less" />
         <option value="$PROJECT_DIR$/src/common/components/WelcomePage.js" />
         <option value="$PROJECT_DIR$/src/common/less/welcomePage.less" />
         <option value="$PROJECT_DIR$/src/client/index.js" />
         <option value="$PROJECT_DIR$/src/common/actions/actions.js" />
-        <option value="$PROJECT_DIR$/src/common/components/ActiveUsers.js" />
-        <option value="$PROJECT_DIR$/src/common/components/AdminPage.js" />
         <option value="$PROJECT_DIR$/.eslintrc" />
-        <option value="$PROJECT_DIR$/src/common/components/Chat.js" />
         <option value="$PROJECT_DIR$/src/server/server.prod.js" />
         <option value="$PROJECT_DIR$/src/common/constants/ActionTypes.js" />
-        <option value="$PROJECT_DIR$/src/server/socketEvents.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/test/unit/components/Chat.unit.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/common/components/ActiveUsers.js" />
+        <option value="$PROJECT_DIR$/src/common/components/AdminPage.js" />
+        <option value="$PROJECT_DIR$/src/server/socketEvents.js" />
+        <option value="$PROJECT_DIR$/src/common/containers/ChatContainer.js" />
+        <option value="$PROJECT_DIR$/src/common/components/Chat.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -349,7 +391,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v4.2.3/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="packa&#9;FILE&#9;file:///Projects/react-chat/package.json&#10;Admin&#9;FILE&#9;file:///Projects/react-chat/src/common/components/AdminPage.js&#10;AdminPa&#9;FILE&#9;file:///Projects/react-chat/src/common/components/AdminPage.js&#10;ActiveUser&#9;FILE&#9;file:///Projects/react-chat/src/common/components/ActiveUsers.js&#10;actions.js&#9;FILE&#9;file:///Projects/react-chat/src/common/actions/actions.js&#10;index.js&#9;FILE&#9;file:///Projects/react-chat/src/client/index.js&#10;actions&#9;FILE&#9;file:///Projects/react-chat/src/common/actions/actions.js&#10;index&#9;FILE&#9;file:///Projects/react-chat/src/common/reducers/index.js&#10;Messa&#9;FILE&#9;file:///Projects/react-chat/src/common/components/MessageComposer.js&#10;welc&#9;FILE&#9;file:///Projects/react-chat/src/common/reducers/welcomePage.js&#10;Chat&#9;FILE&#9;file:///Projects/react-chat/src/common/components/Chat.js&#10;Header&#9;FILE&#9;file:///Projects/react-chat/src/common/components/Header.js&#10;Welcom&#9;FILE&#9;file:///Projects/react-chat/src/common/components/WelcomePage.js" />
+    <property name="SearchEverywhereHistoryKey" value="Messa&#9;FILE&#9;file:///Projects/react-chat/src/common/components/MessageComposer.js&#10;Admin&#9;FILE&#9;file:///Projects/react-chat/src/common/components/AdminPage.js&#10;packa&#9;FILE&#9;file:///Projects/react-chat/package.json&#10;AdminPa&#9;FILE&#9;file:///Projects/react-chat/src/common/components/AdminPage.js&#10;ActiveUser&#9;FILE&#9;file:///Projects/react-chat/src/common/components/ActiveUsers.js&#10;actions.js&#9;FILE&#9;file:///Projects/react-chat/src/common/actions/actions.js&#10;index.js&#9;FILE&#9;file:///Projects/react-chat/src/client/index.js&#10;actions&#9;FILE&#9;file:///Projects/react-chat/src/common/actions/actions.js&#10;index&#9;FILE&#9;file:///Projects/react-chat/src/common/reducers/index.js&#10;welc&#9;FILE&#9;file:///Projects/react-chat/src/common/reducers/welcomePage.js&#10;Chat&#9;FILE&#9;file:///Projects/react-chat/src/common/components/Chat.js&#10;Header&#9;FILE&#9;file:///Projects/react-chat/src/common/components/Header.js&#10;Welcom&#9;FILE&#9;file:///Projects/react-chat/src/common/components/WelcomePage.js" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mxd.client" />
   </component>
   <component name="RecentsManager">
@@ -426,12 +468,12 @@
       <option name="presentableId" value="Default" />
       <updated>1487267927020</updated>
       <workItem from="1487267928246" duration="33095000" />
-      <workItem from="1487342411895" duration="46502000" />
+      <workItem from="1487342411895" duration="48375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79597000" />
+    <option name="totallyTimeSpent" value="81470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -472,14 +514,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/diskdb/lib/diskdb.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/webpack/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -680,38 +714,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/components/ActiveUsers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#52#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/components/AdminPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/components/MessageComposer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -754,14 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/socketEvents.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -870,24 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/containers/ChatContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/components/Chat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/components/Chat.unit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -918,6 +898,66 @@
       </provider>
       <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/components/ActiveUsers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/components/AdminPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/components/MessageComposer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/socketEvents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/containers/ChatContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/components/Chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

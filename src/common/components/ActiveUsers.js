@@ -11,7 +11,7 @@ class WelcomePage extends Component {
     userValidation: PropTypes.object.isRequired
   };
 
-  componentWillMount() {
+  componentDidMount() {
     const { dispatch } = this.props;
     dispatch(usernameValidationList());
   }

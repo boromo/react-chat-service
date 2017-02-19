@@ -27,7 +27,7 @@ export default class Chat extends Component {
     const { socket, user, dispatch, channelID } = this.props;
     socket.emit('chat mounted', user);
     socket.emit('join channel', channelID);
-    socket.on('new bc message', (msg) => {
+    socket.on('new message stored', (msg) => {
       dispatch(actions.receiveRawMessage(msg));
     });
   }

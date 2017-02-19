@@ -8,6 +8,9 @@ class ChatContainer extends Component {
   componentWillMount() {
     const { dispatch, channelID } = this.props;
     this.socket = io('', { path: '/api/chat' });
+    this.socket.on('disconnect', function () {
+      console.log('disconnect client event....');
+    });
     dispatch(actions.fetchMessages(channelID));
   }
 
