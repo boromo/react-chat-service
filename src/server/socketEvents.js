@@ -1,4 +1,5 @@
 import { getConnection } from './db';
+import xssEscape from 'xss-escape';
 
 module.exports = function(io) {
   io.on('connection', function(socket) {
@@ -15,8 +16,8 @@ module.exports = function(io) {
       socket.join(channel)
     })
     socket.on('new message', function(msg) {
-      db.messages.save(msg);
-      io.sockets.in(msg.channelID).emit('new message stored', msg);
+      db.messages.save(xssEscape(msg));
+      io.sockets.in(msg.channelID).emit('new message stored', xssEscape(msg));
     });
   });
 }
