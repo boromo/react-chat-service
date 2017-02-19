@@ -62,3 +62,14 @@ Application uses Webpack also for hot module replacement which allows us to do d
 **[ESLint](http://eslint.org/)** for code linting.
 **[diskdb](https://github.com/arvindr21/diskDB)** A Lightweight Disk based JSON Database with a MongoDB like API for Node
 
+## CI pipeline
+As this example application is not 100% ready to be included in the CI pipeline, and I can only briefly explain how would I imagine it and what's missing.
+Assumption is, that the code quality checks like, linting, styling, code coverage, etc. are preformed in a pre-push phase, and CI phase hooks on to it.
+Assuming that we are using Jenkins, it would listen to master push change and it would then trigger CI jobs. 
+Usual CI pipeline consists of several possible steps like unit testing and build, E2E automated acceptance testing, User acceptance testing and finally Release, where each step in the queue, relies on the previous one. If one step fails, the process is ended and returned to development team.
+Application should contain all scripts needed for specific step. Currently there is only one for unit testing, and the E2E test environment is not setup.
+If release was successfully build, one is ready for deploying to stage environment, and at that point we have a release candidate. 
+As we can see, all of these steps can be done automatically, except for the User acceptance testing, which is preformed manually by the QA team, but the intention is to be completely replaced by automated E2E testing.
+With a release candidate deployed on the stage environment, we final E2E and UAT are performed and if successful, application can finally be deployed on to production environment. 
+This would be just a briefly explanation without going into details.
+
