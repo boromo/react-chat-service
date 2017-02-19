@@ -17,7 +17,7 @@ module.exports = function (router) {
     if (req.body && req.body.username && !req.body.admin) {
       db.users.remove({ username: req.body.username });
       console.log('remove', req.body);
-      db.messages.remove({ user: req.body.channelID });
+      db.messages.remove({ channelID: req.body.channelID });
     }
     res.json(db.users.find());
   });
